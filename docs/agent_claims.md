@@ -1,10 +1,10 @@
 # Multi-agent change claims for one shared worktree
 
-Agent Claims coordinates Codex, Pi, Claude Code, Cursor, or other coding agents working in the **same checkout**. Agents publish a plan, reserve every file they expect to edit, and release their claims when finished. It uses Python 3.9+ on Linux or macOS.
+SwarmClaim coordinates Codex, Pi, Claude Code, Cursor, or other coding agents working in the **same checkout**. Agents publish a plan, reserve every file they expect to edit, and release their claims when finished. It uses Python 3.9+ on Linux or macOS.
 
 ## Install without overwriting existing instruction files
 
-From an Agent Claims clone, point the installer at your existing checkout:
+From an SwarmClaim clone, point the installer at your existing checkout:
 
 ```bash
 python3 tools/install_agent_claims.py --root /path/to/your/repository

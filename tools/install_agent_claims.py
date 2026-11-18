@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2026 Tamaz-sujashvili. Personal-use terms:
-# https://github.com/Tamaz-sujashvili/agent-claims/blob/main/LICENSE
-"""Install Agent Claims and add coordination rules to a shared checkout."""
+# https://github.com/Tamaz-sujashvili/swarmclaim/blob/main/LICENSE
+"""Install SwarmClaim and add coordination rules to a shared checkout."""
 import argparse
 from pathlib import Path
 from stat import S_IMODE
@@ -68,7 +68,7 @@ def instruction_text(path: Path, content: str) -> str:
     if start == end == -1:
         return append_block(content, block, newline)
     if start == -1 or end < start or content.count(START) != 1 or content.count(END) != 1:
-        raise ValueError(f'Invalid Agent Claims markers in {path}')
+        raise ValueError(f'Invalid SwarmClaim markers in {path}')
     return content[:start] + block + content[end + len(END):]
 
 

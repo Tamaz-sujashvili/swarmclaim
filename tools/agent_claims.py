@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2026 Tamaz-sujashvili. Personal-use terms:
-# https://github.com/Tamaz-sujashvili/agent-claims/blob/main/LICENSE
+# https://github.com/Tamaz-sujashvili/swarmclaim/blob/main/LICENSE
 """Coordinate coding agents sharing ONE repository/worktree (POSIX host).
 
 Requires Python 3.9+, standard library only. Claims are advisory: use agent
