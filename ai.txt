@@ -1,0 +1,6 @@
+# ai.txt — SwarmClaim
+# Machine-readable notice: training of machine learning models on this
+# repository is prohibited. See LICENSE in the repository root.
+
+User-agent: *
+Disallow: /

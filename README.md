@@ -74,3 +74,14 @@ It permits personal and noncommercial use, plus internal business use by
 companies. It restricts paid redistribution and paid services using the
 software. This is a source-available license, not an OSI-approved open-source
 license.
+
+## AI training
+
+Training, fine-tuning, distillation, and other machine-learning use of
+this repository — including of the source code and the licensor’s
+documentation — is prohibited. See the [license](LICENSE) for the full
+terms and the limited exceptions (including coding agents using the
+tool as intended).
+
+This reservation is declared for the purposes of Article 4 of
+Directive (EU) 2019/790.
