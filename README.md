@@ -1,15 +1,29 @@
 # SwarmClaim
 
-Claim files before your agents edit. In a shared checkout, each agent registers
-a short plan and the files it needs. SwarmClaim rejects overlapping claims and
-shows who is working on what.
+Run several coding agents on one project. SwarmClaim helps keep their edits
+from colliding during one-night MVPs, hackathons, and team projects where
+agents work in the same checkout.
 
-SwarmClaim uses Python 3.9+ on macOS or Linux with no third-party packages.
-Every participating agent must run commands against the same physical checkout
-and follow the claim rules. The CLI coordinates plans. Agents still have direct
-write access to source files.
+## The problem
+
+You ask one agent to build a login page and another to add authentication.
+Both need to edit the routes file. Without a way to see what the other agent
+plans to change, they can overwrite each other's work or leave you sorting
+out conflicting edits.
+
+## How SwarmClaim helps
+
+Before editing, each agent posts a short plan and claims the files it needs.
+If another agent already claimed a file, SwarmClaim shows who has it and what
+they're doing. The second agent can coordinate with them or pick another task.
+When the first agent finishes, it releases the files.
+
+Claims are advisory. Every agent needs to use the same checkout and follow
+the claim rules. Agents still have direct write access to the files.
 
 ## Install in your checkout
+
+Requires Python 3.9+ on macOS or Linux. There are no third-party packages.
 
 ```sh
 git clone https://github.com/Tamaz-sujashvili/swarmclaim.git
