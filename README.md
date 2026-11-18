@@ -69,7 +69,8 @@ python3 -m unittest discover -s tests -v
 
 ## License
 
-Source available under the [SwarmClaim Personal Use License](LICENSE).
-Individuals may use and privately modify it for personal, noncommercial
-projects. Commercial use, organizational use, and monetization require
-written permission from the copyright holder.
+SwarmClaim is available under the [Sustainable Use License, Version 1.0](LICENSE).
+It permits personal and noncommercial use, plus internal business use by
+companies. It restricts paid redistribution and paid services using the
+software. This is a source-available license, not an OSI-approved open-source
+license.

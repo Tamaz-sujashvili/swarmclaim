@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Copyright (c) 2026 Tamaz-sujashvili. Personal-use terms:
+# Copyright (c) 2026 Tamaz-sujashvili.
+# Licensed under the Sustainable Use License, Version 1.0.
 # https://github.com/Tamaz-sujashvili/swarmclaim/blob/main/LICENSE
 """Coordinate coding agents sharing ONE repository/worktree (POSIX host).
 
