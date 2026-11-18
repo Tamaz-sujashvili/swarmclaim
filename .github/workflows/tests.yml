@@ -9,8 +9,10 @@ jobs:
   unittest:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        # Python 3.9 has an Actions build for Ubuntu 24.04.
+        os: [ubuntu-24.04, macos-latest]
         python: ['3.9', '3.14']
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
