@@ -1,0 +1,6 @@
+/.agent-coordination/
+__pycache__/
+*.py[cod]
+.DS_Store
+/ace.log
+/agent_claims_bundle.zip
